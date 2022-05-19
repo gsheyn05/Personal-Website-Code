@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+#tsparticles {
+    height: 100vh;
+  }
+  
+.home__image{
+    width: 70%;
+    margin-left: 230px;
+    height: 75vh;
+}
+.home__para{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    margin-left: 570px;
+    margin-top: 350px;
+ } 
+ .home__para h1{
+     font-size: 40px;
+     font-style: italic;
+     color: white; 
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     
+ }
+ #welcome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:absolute;
+
+    width: 100vw;
+    height: 100vh;
+}
+#welcome h1{
+    color:chartreuse;
+}
+#gitHub {
+    
+    display:flex;
+    align-items:baseline;
+    position:absolute;
+    height: 100vh;
+    
+    
+    
+
+}
+
+.scale-in-center {
+    -webkit-animation: scale-in-center 1.5s cubic-bezier(0.250,
+    0.460, 0.450, 0.940) 1s both;
+    animation: scale-in-center 1.5s cubic-bezier(0.250, 0.460,
+    0.450, 0.940) 1s both;
+}
+@-webkit-keyframes scale-in-center {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+@keyframes scale-in-center {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
+}
